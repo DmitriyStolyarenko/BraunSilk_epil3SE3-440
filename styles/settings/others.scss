@@ -1,0 +1,38 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-background-first{
+	background-color: #FDFBFE;
+}
+.color-background-grad{
+	background: linear-gradient(180deg, #F0F0F0 0%, rgba(255, 255, 255, 0) 100%);
+}
+.color-background-second{
+	background-color: #F0F0F0;
+}
+.l-main-title>span{
+	font-weight: bold;
+}
+.bold-p{
+	font-weight: normal;
+	padding-top: 50px;
+	color: #BB6F71;
+	padding-left: 7%;
+	@include tablets {
+		padding-left: 0px;
+	}
+
+	@include phones {
+		padding-left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.title-color-gray{
+	color: #777777 !important;
+}
+.paragraph-color-gray{
+	color: #777778 !important;
+}
